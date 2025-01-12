@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.2",
+    "cron": "^3.5.0",
+    "expo-server-sdk": "^3.13.0",
+    "fastify": "^5.2.1",
+    "firebase": "^11.1.0",
+    "firebase-admin": "^13.0.2",
+    "puppeteer": "^23.11.1"
+  }
+}
