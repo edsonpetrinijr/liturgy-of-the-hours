@@ -27,8 +27,9 @@ export async function findLinkForDate(
 
       if (!targetCell) return null;
 
-      const nextElement = targetCell.nextElementSibling;
-      return nextElement?.querySelector("a")?.href || null;
+      // const nextElement = targetCell.nextElementSibling;
+      // return nextElement?.querySelector("a")?.href || null;
+      return "";
     },
     month,
     day
